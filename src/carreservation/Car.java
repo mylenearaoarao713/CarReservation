@@ -6,6 +6,11 @@ public class Car {
 public String getBrand() {
 	return brand;
 }
+public Car(String brand, String color) {
+	super();
+	this.brand = brand;
+	this.color = color;
+}
 public void setBrand(String brand) {
 	this.brand = brand;
 }
